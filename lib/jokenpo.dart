@@ -32,8 +32,8 @@ class _MeioStatefulState extends State<MeioStateful> {
     int i = Random().nextInt(op.length);
     String adv = op[i];
 
-    this.caminhoFoto = "images/"+adv.toLowerCase()+".png";
- 
+    this.caminhoFoto = "images/" + adv.toLowerCase() + ".png";
+
     if ((escolha == "Pedra" && adv == "Tesoura") ||
         (escolha == "Papel" && adv == "Pedra") ||
         (escolha == "Tesoura" && adv == "Papel")) {
